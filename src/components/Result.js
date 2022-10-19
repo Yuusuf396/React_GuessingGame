@@ -25,7 +25,7 @@ const Result = ({ term, secretNum }) => {
               
       }
       else {
-        result = 'You won'
+        result = 'You Guessed Right'
         console.log('Winner🏆');
         highscore = score;
       }
