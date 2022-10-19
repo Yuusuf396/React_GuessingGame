@@ -42,7 +42,7 @@ class Guessing extends Component {
             <div>
                 <header>
           <h1>Guess My Number! {this.state.secretNumber}</h1>
-                <p className="between">(Between 1 and 20)</p>
+                <p className="between">(Between 1 and 10)</p>
                 <button onClick={this.again} className="btn again">Again!</button>
                  
                 </header>
